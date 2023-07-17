@@ -19,8 +19,8 @@
 set -e
 
 # Required!
-export DEVICE=gprimelte
-export DEVICE_COMMON=gprimelte-common
+export DEVICE=o7prolte
+export DEVICE_COMMON=o7-common
 export VENDOR=samsung
 
 export SETUP_DEVICE_DIR=1

@@ -1,13 +1,13 @@
 # Inherit from common
-include device/samsung/gprimelte-common/BoardConfigCommon.mk
+include device/samsung/o7-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/gprimelte
+LOCAL_PATH := device/samsung/o7prolte
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := gprimelte,gprimeltecan,gprimeltetmo,gprimeltemtr,gprimeltevl
+TARGET_OTA_ASSERT_DEVICE := o7prolte
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_canopen_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_o7lte_swaopen_defconfig
 
 # Partition sizes
 BOARD_SYSTEMIMAGE_PARTITION_SIZE    := 2233466880

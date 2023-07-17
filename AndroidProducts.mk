@@ -1,8 +1,8 @@
-LOCAL_PATH := device/samsung/gprimelte
+LOCAL_PATH := device/samsung/o7prolte
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/lineage_gprimelte.mk
+	$(LOCAL_DIR)/lineage_o7prolte.mk
 
 COMMON_LUNCH_CHOICES := \
-	lineage_gprimelte-eng \
-	lineage_gprimelte-userdebug \
-	lineage_gprimelte-user
+	lineage_o7prolte-eng \
+	lineage_o7prolte-userdebug \
+	lineage_o7prolte-user
