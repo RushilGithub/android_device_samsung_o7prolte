@@ -6,11 +6,8 @@ LOCAL_PATH := device/samsung/o7prolte
 # Assert
 TARGET_OTA_ASSERT_DEVICE := o7prolte
 
-# NFC
-BOARD_NFC_HAL_SUFFIX := msm8916
-
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_fortuna_eur_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_o7lte_swaopen_defconfig
 
 # Partition sizes
 BOARD_SYSTEMIMAGE_PARTITION_SIZE    := 2181038080
