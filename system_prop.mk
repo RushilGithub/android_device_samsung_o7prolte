@@ -4,4 +4,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Screen
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.sf.lcd_density=220
+	ro.sf.lcd_density=320
